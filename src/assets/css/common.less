@@ -1,7 +1,10 @@
+@import './font.less';
+
 html {
-  font-size: calc(100vw / 120);
+  font-size: calc(100vw/120);
 }
 body {
+  font-family: "Alibaba PuHuiTi 2.0";
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -11,9 +14,10 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  padding: 3rem 0;
   .center-block-img {
     display: block;
-    max-width: 50%;
+    max-width: 60%;
     img {
       width: 100%;
     }
@@ -22,15 +26,18 @@ body {
       color: var(--grey-400, #959494);
       text-align: center;
       font-family: "Alibaba PuHuiTi 2.0";
-      font-size: 1rem;
+      font-size: 1.25rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 1.5rem; /* 150% */
+      line-height: 150%; /* 150% */
     }
   }
   .center-block-title {
     display: block;
-    max-width: 50%;
+    max-width: 60%;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
   }
   .mt, .mtb {
     margin-top: 3rem;
@@ -50,7 +57,7 @@ body {
     line-height: 150%; /* 1.875rem */
   }
   .footer {
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
     text-align: center;
     color: var(--grey-400, #959494);
     text-align: center;
@@ -59,5 +66,36 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 1.3125rem */
+  }
+}
+
+@media (max-width: 1440px) {
+  // .article {
+  //   .center-block-img {
+  //     .img-tip {
+
+  //     }
+  //   }
+  // }
+}
+
+@media (max-width: 1440px) {
+  .article {
+    .center-block-img {
+      max-width: 80%;
+      .img-tip {
+        font-size: 2.4rem;
+      }
+    }
+    .center-block-title {
+      max-width: 80%;
+    }
+    .text {
+      width: 80%;
+      font-size: 2.4rem;
+    }
+    .footer {
+      font-size: 2.1rem;
+    }
   }
 }

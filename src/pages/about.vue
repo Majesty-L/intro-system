@@ -3,14 +3,13 @@
     <div class="about-container">
       <div class="banner">
         <a-row>
-          <a-col :span="2"></a-col>
+          <a-col :span="3"></a-col>
           <a-col :span="12">
             <div class="bgImg">
               <div class="banner_title">关于我们</div>
-              <div class="banner_tips">我们是一个儿童美育研究团队，我们的愿景是传承中国传统色彩、提高国民色彩素养、促进跨学科色彩交流。</div>
+              <div class="banner_tips">在中国流行色协会儿童色彩素养科普基地建立，AIC国际色彩联盟色彩教育小组，湖南省美术家协会美术教育委员会的关怀与支持下，成立的非营利儿童美育研究团队，我们的愿景是传承中国传统色彩、提高国民色彩素养、促进跨学科色彩交流。</div>
               <div class="operate">
-                <a-button>了解更多</a-button>
-                <a-button>加入我们</a-button>
+                <a-button shape="round">加入我们</a-button>
               </div>
             </div>
           </a-col>
@@ -18,40 +17,53 @@
       </div>
       <div class="intro">
         <div class="text"> 
-          <div class="title">团队故事</div>
+          <div class="title">
+            <p class="pre">Our Story</p>
+            <p class="head">团队故事</p>
+          </div>
           <div class="tips">
-            <p>儿童色彩美育研究团队成立于2020年，致力于实现中国儿童色彩美育的体系化和专业化，通过色彩教育的不同内涵，培养孩子能力的三个维度——逻辑力、创造力、融合力。</p>
-            <p>在实验观察中，验证色彩的相关科学知识，提升逻辑力。在平面、立体、通感等设计中，进行色彩创造与表达，提升创造力。</p>
-            <p>在与他人协作、社会服务中，提升融合力。</p>
+            <p>儿童色彩美育研究团队成立于2020年，致力于实现中国儿童色彩美育的体系化和专业化，通过色彩教育的不同内涵，培养孩子能力的三个维度--逻辑力、创造力、融合力。</p>
+            <p>逻辑力是指对于某件事物进行观察，分析，判断之后，进行推理、论证的一种综合能力。色彩是科学的存在，孩子们在实验观察中，验证色彩的相关科学知识，提升逻辑力。创造力是指产生新思想，发现和创造新事物的能力。让孩子们在平面、立体、通感等色彩设计中，进行色彩创造与表达，提升创造力。融合力是指如何与他人协作，为社会服务，与世界融合在一起的能力。在色彩教育中，孩子们会通过一个又一个的团队实际项目为社会做出自己的贡献，增强自我价值感与存在感，提升融合力。</p>
           </div>
         </div>
-        <img class="text_img" src="/bgImg/about_text.png"/>
+        <div class="text_img"><img src="/bgImg/about_text.png"/></div>
       </div>
       <div class="work">
         <div class="work_title">
           <div class="title_text">
-            我们的愿景
+            <p class="pre">Our Mission</p>
+            <p class="head">我们的目标</p>
           </div>
         </div>
         <div class="work_list">
           <div class="list_container mr">
-            <p>开启儿童色觉感知系统训练，将潜藏在我们身上人人皆有的色彩美感，通过有趣生动的方式，得到提升。</p>
-            <img class="list_img br" :src="`/bgImg/about_work1.png`"/>
+            <div class="goal">
+              <h3 style="color:var(--YELLOW-600, #F8B405);">儿童色感启蒙</h3>
+              <p>开启儿童色觉感知系统训练，将潜藏在我们身上人人皆有的色彩美感，通过有趣生动的方式，得到提升。</p>
+            </div>
+            <div class="list_img"><img class="br" :src="`/bgImg/about_work1.png`"/></div>
           </div>
           <div class="list_container ml">
-            <img class="list_img bl" :src="`/bgImg/about_work2.png`"/>
-            <p>有效促进儿童良好心理品质的养成，系统化提升孩子们的色彩艺术素养和美学素养。</p>
+            <div class="list_img"><img class="bl" :src="`/bgImg/about_work2.png`"/></div>
+            <div class="goal">
+              <h3 style="color:var(--RED-BASE, #F46803);">儿童色彩心理研究</h3>
+              <p>有效促进儿童良好心理品质的养成，系统化提升孩子们的色彩艺术素养和美学素养。</p>
+            </div>
           </div>
           <div class="list_container mr">
-            <p>以动手实践为导向，提倡儿童运用色彩参与公益活动，用美育引导德育，提高动手能力、增强责任意识。</p>
-            <img class="list_img br" :src="`/bgImg/about_work3.png`"/>
+            <div class="goal">
+              <h3 style="color:var(--PURPLE-600, #8989FE);">儿童色彩应用实践</h3>
+              <p>以动手实践为导向，提倡儿童运用色彩参与公益活动，用美育引导德育，提高动手能力、增强责任意识。</p>
+            </div>
+            <div class="list_img"><img class="br" :src="`/bgImg/about_work3.png`"/></div>
           </div>
         </div>
       </div>
       <div class="wish">
         <div class="wish_title">
           <div class="title_text">
-            我们的愿景
+            <p class="pre">Theories Behind</p>
+            <p class="head">我们的理念</p>
           </div>
         </div>
         <div class="wish_list">
@@ -74,7 +86,7 @@
           战略合作机构
         </p>
         <div class="team_list">
-          <div v-for="item in 5" :key="item">
+          <div v-for="item in 6" class="item" :key="item">
             <img class="list_img" :src="`/images/team${item}.png`"/>
             <span>{{teamName[item-1]}}</span>
           </div>
@@ -85,7 +97,7 @@
 </template>
 
 <script>
-const teamName = ['长沙市芙蓉区东茅街小学', '长沙市雨花区砂子塘小学', '长沙市雨花区枫树山悦东方小学', '长沙县育英会展中心小学', '大信华彩艺术博物馆'];
+const teamName = ['长沙市芙蓉区东茅街小学', '长沙市雨花区砂子塘小学', '长沙市雨花区枫树山悦东方小学', '长沙县育英会展中心小学', '大信华彩艺术博物馆', '春虫社创室'];
 export default {
   name: 'aboutPage',
   components: {
@@ -94,6 +106,9 @@ export default {
     return {
       teamName,
     }
+  },
+  mounted() {
+    window.scrollTo(0,0);
   },
   methods: {
   },
@@ -104,29 +119,62 @@ export default {
 .banner {
   width: 100%;
   height: 70rem;
-  background: url('../../public/bgImg/about_banner.png') white top / cover no-repeat;
+  background: url('../../public/bgImg/about_banner.png') var(--YELLOW-200, #FFECBB) top / cover no-repeat;
   display: flex;
   align-items: center;
   .bgImg {
-    width: 50vw;
+    width: 55vw;
     .banner_title {
       max-width: 100%;
       color: var(--grey-100, #FEFEFE);
       font-family: TsangerFeiBai;
-      font-size: 4rem;
+      font-size: 5.33331rem;
       font-weight: 400;
-      line-height: 4rem; /* 100% */
+      line-height: 100%;
     }
     .banner_tips {
+      text-align: justify;
       color: var(--grey-100, #FEFEFE);
-      /* body/24 */
-      font-family: "Alibaba PuHuiTi 2.0";
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: 400;
-      line-height: 2.25rem; /* 150% */
-      margin: 1rem 0;
+      line-height: 150%;
+      margin: 1.44rem 0;
+    }
+
+    .operate {
+      margin-top: 3rem;
+      .ant-btn {
+        color: var(--grey-100, #FEFEFE);
+        background-color: var(--RED-BASE, #F46803);
+        &:first-child {
+          border-color: var(--RED-BASE, #F46803);
+        }
+      }
+      .ant-btn:hover, .ant-btn:focus {
+        border-color: var(--RED-BASE, #F46803);
+      }
     }
   }
+}
+@media (max-width: 960px) {
+.banner {
+  height: 95rem;
+  background: url('../../public/bgImg/about_banner.png') var(--YELLOW-200, #FFECBB) top / 100% 100% no-repeat;
+  .bgImg {
+    width: 80vw;
+    .banner_title {
+      font-size: 8rem;
+    }
+    .banner_tips {
+      font-size: 3rem;
+      margin: 2rem 0;
+    }
+
+    .operate {
+      margin-top: 8rem;
+    }
+  }
+}
 }
 .intro {
   display: flex;
@@ -134,96 +182,170 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 10rem 15rem;
-  background: var(--YELLOW-300, #FFE298);
-  gap: 2rem;
+  background: var(--YELLOW-300, #FFECBB);
+  gap: 4.5rem;
   .text {
-    flex: 0 0 400px;
+    flex: 1 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .title {
-      display: inline-block;
       margin-bottom: 4rem;
-      border-radius: 100px;
-      background: var(--BRAND-BASE, #F90);
-      padding: 1rem 3rem;
-      color: var(--grey-100, #FEFEFE);
-
-      /* header/64 */
-      font-family: TsangerFeiBai;
-      font-size: 4rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 4rem; /* 100% */
+      border-radius: 111rem;
+      background: var(--YELLOW-BASE, #FFC632);
+      padding: 2rem 5rem;
+      .pre {
+        color: var(--RED-BASE, #F46803);
+        text-align: center;
+        font-family: yixinxiaojiling;
+        font-size: 1.33331rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+      }
+      .head {
+        color: var(--RED-BASE, #F46803);
+        text-align: center;
+        font-family: TsangerFeiBai;
+        font-size: 5.33331rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        margin-bottom: 0;
+      }
     }
     .tips {
-      color: var(--grey-600, #2C2B2B);
-
-      /* body/16 */
-      font-family: "Alibaba PuHuiTi 2.0";
-      font-size: 1rem;
+      color: var(--BRAND-1000, #743600);
+      text-align: justify;
+      font-size: 1.33331rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 1.5rem; /* 150% */
+      line-height: 150%; 
     }
   }
   .text_img {
-    width: 50%;
+    flex: 1 0 40%;
+    img {
+      width: 100%;
+    }
   }
 }
+
+@media (max-width: 960px) {
+.intro {
+  .text {
+    flex: 1 0 80%;
+    .title {
+      border-radius: 165rem;
+      padding: 3rem 8rem;
+      margin-bottom: 8rem;
+      .pre {
+        font-size: 2rem;
+      }
+      .head {
+        font-size: 8rem;
+      }
+    }
+    .tips {
+      font-size: 2rem;
+    }
+  }
+  .text_img {
+    flex: 1 0 40%;
+  }
+}
+}
+@media (max-width: 430px) {
+.intro {
+  padding: 10rem 18rem;
+  .text {
+    .title {
+      border-radius: 200rem;
+      padding: 3.6rem 10rem;
+      margin-bottom: 8rem;
+    }
+    .tips {
+      font-size: 2.4rem;
+    }
+  }
+}
+}
+
 .work {
-  background: var(--PURPLE-100, #ECECFF);
+  background: var(--BRAND-300, #FFCC80);
   padding-bottom: 8rem;
   .work_title {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 4rem;
+    padding: 6rem;
     .title_text {
-      display: inline-block;
-      padding: 1rem 3rem;
-      border-radius: 100px;
-      background: var(--PURPLE-300, #CED0FF);
-      color: var(--PURPLE-800, #6A4DF9);
-      /* header/64 */
-      font-family: TsangerFeiBai;
-      font-size: 4rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 4rem; /* 100% */
+      border-radius: 111rem;
+      background: var(--BRAND-BASE, #F90);
+      padding: 2rem 5rem;
+      .pre {
+        color: var(--PURPLE-900, #4228C5);
+        text-align: center;
+        font-family: yixinxiaojiling;
+        font-size: 1.33331rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+      }
+      .head {
+        color: var(--PURPLE-900, #4228C5);
+        text-align: center;
+        font-family: TsangerFeiBai;
+        font-size: 5.33331rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        margin-bottom: 0;
+      }
     }
   }
   .work_list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6rem;
+    gap: 7rem;
     .list_container {
-      border-radius: 16px;
+      border-radius: 1rem;
       background: var(--grey-100, #FEFEFE);
       /* shadow */
       box-shadow: 0px 1.7px 1.4px 0px rgba(31, 31, 31, 0.02), 0px 4.5px 3.5px 0px rgba(31, 31, 31, 0.03), 0px 8px 7px 0px rgba(31, 31, 31, 0.04), 0px 18px 15px 0px rgba(31, 31, 31, 0.05), 0px 25px 50px 0px rgba(31, 31, 31, 0.07);
-      flex: 0 0 12rem;
+      flex: 0 0 27rem;
       max-width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 20px;
       font-size: 0;
-      .list_img {
-        width: 50%;
-        height: 100%;
-      }
       .br {
-        border-radius: 0 16px 16px 0;
+        border-radius: 0 1rem 1rem 0;
       }
       .bl {
-        border-radius: 16px 0 0 16px;
+        border-radius: 1rem 0 0 1rem;
       }
-      p {
-        color: var(--grey-600, #2C2B2B);
-        /* body/24 */
-        font-family: "Alibaba PuHuiTi 2.0";
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 36px; /* 150% */
+      .goal {
         margin: 0 3rem;
+        h3 {
+          font-size: 4rem;
+          text-align: right;
+          font-weight: 900;
+        }
+        p {
+          color: var(--grey-600, #2C2B2B);
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 160%; /* 150% */
+        }
+      }
+      .list_img {
+        flex: 1 0 50%;
+        img {
+          width: 100%;
+        }
       }
     }
     .ml {
@@ -235,64 +357,137 @@ export default {
   }
 }
 
+@media (max-width: 960px) {
+  .work {
+  .work_title {
+    padding: 12rem 0 9rem;
+    .title_text {
+      border-radius: 165rem;
+      padding: 3rem 8rem;
+      .pre {
+        font-size: 2rem;
+      }
+      .head {
+        font-size: 8rem;
+      }
+    }
+  }
+  .work_list {
+    gap: 10rem;
+    margin: 0 8rem 20rem;
+    .list_container {
+      /* shadow */
+      flex: 0 0 80rem;
+      max-width: 80%;
+      display: flex;
+      align-content: space-between;
+      flex-wrap: wrap;
+      .br {
+        border-radius: 0 0 1rem 1rem;
+      }
+      .bl {
+        border-radius: 1rem 1rem 0 0;
+      }
+      .goal {
+        margin: 10rem 8rem;
+        h3 {
+          font-size: 6rem;
+        }
+        p {
+          font-size: 2.5rem;
+        }
+      }
+      .list_img {
+        flex: 1 0 50%;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+}
+
+@media (max-width: 430px) {
+.work {
+  .work_list {
+    .ml {
+      margin-left: 0;
+    }
+    .mr {
+      margin-right: 0;
+    }
+  }
+}
+}
 .wish {
-  background: var(--grey-100, #FEFEFE);
+  background: var(--BRAND-100, #FFEFD8);
   .wish_title {
     text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 4rem 0 0;
     .title_text {
-      display: inline-block;
-      padding: 1rem 3rem;
-      border-radius: 100px;
-      background: var(--PINK-BASE, #FF6FB4);
-      color: var(--BRAND-200, #FDA);
-      /* header/64 */
-      font-family: TsangerFeiBai;
-      font-size: 4rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 4rem; /* 100% */
+      border-radius: 111rem;
+      background: var(--RED-BASE, #F46803);
+      padding: 2rem 5rem;
+      .pre {
+        color: var(--YELLOW-100, #FFF4D6);
+        text-align: center;
+        font-family: yixinxiaojiling;
+        font-size: 1.33331rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+      }
+      .head {
+        color: var(--YELLOW-100, #FFF4D6);
+        text-align: center;
+        font-family: TsangerFeiBai;
+        font-size: 5.33331rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        margin-bottom: 0;
+      }
     }
   }
   .wish_list {
     display: flex;
     flex-wrap: wrap;
-    padding: 7rem;
-    gap: 3rem;
-    justify-content: center;
+    padding: 6rem 10rem 13rem;
+    gap: 4rem;
     .list_container {
-      flex: 1 0 500px;
+      flex: 1 0 40%;
       max-width: 100%;
-      border-radius: 16px;
-      height: 24rem;
+      border-radius: 1rem;
+      min-height: 29rem;
+      background: var(--grey-100, #FEFEFE);
       box-shadow: 0px 1.7px 1.4px 0px rgba(31, 31, 31, 0.02), 0px 4.5px 3.5px 0px rgba(31, 31, 31, 0.03), 0px 8px 7px 0px rgba(31, 31, 31, 0.04), 0px 18px 15px 0px rgba(31, 31, 31, 0.05), 0px 25px 50px 0px rgba(31, 31, 31, 0.07);
       &:nth-child(1) {
-        background: var(--PINK-100, #FFEBF4);
         .subtitle1 {
           background: url('../../public/bgImg/about_wish1.png') white top / cover no-repeat;
-          height: 10rem;
+          height: 13rem;
         }
       }
       &:nth-child(2) {
-        background: var(--YELLOW-100, #FFF4D6);
         .subtitle2 {
           background: url('../../public/bgImg/about_wish2.png') white top / cover no-repeat;
-          height: 10rem;
+          height: 13rem;
         }
       }
       &:nth-child(3) {
-        background: var(--PURPLE-100, #ECECFF);
         display: flex;
         .subtitle3 {
           background: url('../../public/bgImg/about_wish3.png') white top / cover no-repeat;
-          flex: 0 0 25rem;
+          flex: 0 0 50%;
         }
       }
       .bt {
-        border-radius: 16px 16px 0 0;
+        border-radius: 1rem 1rem 0 0;
       }
       .bl {
-        border-radius: 16px 0 0 16px;
+        border-radius: 1rem 0 0 1rem;
       }
       p {
         display: flex;
@@ -301,7 +496,7 @@ export default {
         color: var(--grey-600, #2C2B2B);
         text-align: justify;
         font-family: "Alibaba PuHuiTi 2.0";
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 400;
         line-height: 150%; /* 36px */
@@ -320,32 +515,142 @@ export default {
     }
   }
 }
+@media (max-width: 960px) {
+.wish {
+  .wish_title {
+    padding: 12rem 0 0;
+    .title_text {
+      border-radius: 165rem;
+      padding: 3rem 8rem;
+      .pre {
+        font-size: 2rem;
+      }
+      .head {
+        font-size: 8rem;
+      }
+    }
+  }
+  .wish_list {
+    padding: 9rem 15rem 20rem;
+    gap: 9rem;
+    .list_container {
+      flex: 1 0 80%;
+      min-height: 29rem;
+      box-shadow: 0px 1.7px 1.4px 0px rgba(31, 31, 31, 0.02), 0px 4.5px 3.5px 0px rgba(31, 31, 31, 0.03), 0px 8px 7px 0px rgba(31, 31, 31, 0.04), 0px 18px 15px 0px rgba(31, 31, 31, 0.05), 0px 25px 50px 0px rgba(31, 31, 31, 0.07);
+      &:nth-child(1) {
+        .subtitle1 {
+          background: url('../../public/bgImg/about_wish1.png') white top / cover no-repeat;
+          height: 20rem;
+        }
+      }
+      &:nth-child(2) {
+        .subtitle2 {
+          background: url('../../public/bgImg/about_wish2.png') white top / cover no-repeat;
+          height: 20rem;
+        }
+      }
+      &:nth-child(3) {
+        display: block;
+        .subtitle3 {
+          background: url('../../public/bgImg/about_wish3.png') white top / cover no-repeat;
+          height: 40rem;
+        }
+      }
+      .bl {
+        border-radius: 1rem 1rem 0 0;
+      }
+      p {
+        padding: 6rem;
+        font-size: 3rem;
+      }
+      div {
+        padding-left: 8rem;
+        font-size: 6rem;
+      }
+    }
+  }
+}
+}
+@media (max-width: 430px) {
+.wish {
+  .wish_list {
+    padding: 9rem 18rem 20rem;
+  }
+}
+}
 .team {
-  padding: 6rem 10rem;
-  background: var(--YELLOW-100, #FFF4D6);
+  padding: 8rem 10rem 13rem;
+  background: var(--grey-100, #FEFEFE);
   .team_header {
     color: var(--BRAND-BASE, #F90);
-
-    /* header/64 */
     font-family: TsangerFeiBai;
-    font-size: 4rem;
+    font-size: 5.33331rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 64px; /* 100% */
+    line-height: 100%;
   }
   .team_list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    span {
-      color: var(--grey-600, #2C2B2B);
-      font-family: "Alibaba PuHuiTi 2.0";
-      font-size: 1.25rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
+    gap: 6rem;
+    .item {
+      flex: 1 0 25%;
+      display: flex;
+      align-items: center;
+      .list_img {
+        width: 8rem;
+        margin-right: 1.3rem;
+      }
+      span {
+        color: var(--grey-600, #2C2B2B);
+        font-size: 1.66669rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
     }
   }
+}
+@media (max-width: 960px) {
+.team {  
+  padding: 12rem 15rem;
+  .team_header {
+    font-size: 8rem;
+  }
+  .team_list {
+    .item {
+      flex: 1 0 40%;
+      .list_img {
+        width: 12rem;
+        margin-right: 2rem;
+      }
+      span {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+}
+@media (max-width: 430px) {
+.team {  
+  padding: 14.4rem 18rem;
+  .team_header {
+    font-size: 9.6rem;
+  }
+  .team_list {
+    gap: 5rem;
+    .item {
+      flex: 1 0 80%;
+      .list_img {
+        width: 14.4rem;
+        margin-right: 2.4rem;
+      }
+      span {
+        font-size: 3rem;
+      }
+    }
+  }
+}
 }
 </style>
